@@ -1,0 +1,11 @@
+server/.env
+
+client/.env
+
+server/.env.local
+
+client/.env.local
+
+server/node_modules/
+
+client/node_modules/

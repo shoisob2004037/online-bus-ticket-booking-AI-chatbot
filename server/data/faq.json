@@ -1,0 +1,102 @@
+{
+  "bookingInstructions": {
+    "how_to_book": {
+      "question": "How do I book a bus ticket?",
+      "answer": "Here are the steps to book a bus ticket:\n\n1. **Go to Homepage** - Click on 'Home' in the navigation menu\n2. **Click Search Bus** - You'll see a prominent 'Search' button/form\n3. **Enter Details** - Fill in:\n   - Departure city (From)\n   - Destination city (To)\n   - Journey date\n4. **View Results** - Browse available buses with prices and timings\n5. **Select Bus** - Click on your preferred bus to view details\n6. **Choose Seats** - Select your desired seats from the seat map\n7. **Proceed to Checkout** - Review your selection and click checkout\n8. **Enter Passenger Info** - Provide your name, phone, and email\n9. **Make Payment** - Complete payment using available payment methods\n10. **Get Ticket** - Your ticket will be confirmed with a ticket number\n\n**Pro Tip**: Book in advance for better seat availability and sometimes discounted fares!"
+    },
+    "create_account": {
+      "question": "How do I create an account?",
+      "answer": "Creating an account is simple:\n\n1. Click on **'Register'** link in the top navigation or go to the registration page\n2. Enter your **Full Name**\n3. Enter a valid **Email address**\n4. Create a **Password** (at least 6 characters)\n5. Optionally, add your **Phone number**\n6. Click **'Register'** button\n7. You'll be automatically logged in\n\nYou can now start booking buses right away!"
+    },
+    "login_process": {
+      "question": "How do I login to my account?",
+      "answer": "To login:\n\n1. Click on **'Login'** in the top right corner\n2. Enter your **Email address**\n3. Enter your **Password**\n4. Click **'Login'** button\n5. You'll be redirected to your profile\n\nOnce logged in, you can:\n- Book buses\n- View your booking history\n- Manage your profile\n- Access the chat assistant for help"
+    },
+    "view_bookings": {
+      "question": "How do I view my bookings?",
+      "answer": "To view your bookings:\n\n1. Log in to your account\n2. Click on **'Profile'** in the top navigation\n3. Look for the **'My Bookings'** or **'Booking History'** section\n4. Here you can see:\n   - Bus name and route\n   - Booking date\n   - Ticket number\n   - Seat numbers\n   - Payment status\n   - Booking status (confirmed/cancelled)\n\nYou can click on any booking to view full details!"
+    },
+    "cancel_booking": {
+      "question": "How do I cancel my booking?",
+      "answer": "To cancel a booking:\n\n1. Go to **Profile** → **My Bookings**\n2. Find the booking you want to cancel\n3. Click on the booking to view details\n4. Look for the **'Cancel Booking'** button\n5. Click it and confirm cancellation\n6. Your refund will be processed according to our refund policy\n\n**Cancellation Policy**:\n- Cancel **7+ days before departure**: Full refund minus 5% service charge\n- Cancel **3-6 days before departure**: 50% refund\n- Cancel **Less than 3 days before**: 25% refund\n- **No refund** for cancellations on the same day"
+    },
+    "reschedule_booking": {
+      "question": "Can I reschedule my bus booking?",
+      "answer": "Yes, you can reschedule your booking!\n\n1. Go to **Profile** → **My Bookings**\n2. Select the booking you want to reschedule\n3. Click **'Reschedule'** button\n4. Choose a **new date** and **time** from available options\n5. Select your **new seats**\n6. If there's a **price difference**, you'll need to pay the extra amount\n7. Confirm the rescheduling\n\n**Note**: You can only reschedule to a future date. For same-route changes, rescheduling is usually free if the new bus is cheaper. If more expensive, you pay the difference."
+    },
+    "payment_methods": {
+      "question": "What payment methods are available?",
+      "answer": "We accept the following payment methods:\n\n**Digital Payments**:\n- Credit Card (Visa, Mastercard)\n- Debit Card\n- Mobile Banking (bKash, Nagad, Rocket)\n- Net Banking\n\n**Steps**:\n1. At checkout, select your preferred payment method\n2. You'll be redirected to the secure payment gateway\n3. Complete the payment\n4. Once confirmed, your ticket will be generated\n\n**Security**: All payments are secure and encrypted. Your financial information is never stored on our servers."
+    },
+    "refund_status": {
+      "question": "How do I check my refund status?",
+      "answer": "To check your refund status:\n\n1. Go to **Profile** → **My Bookings**\n2. Find the cancelled booking\n3. Look for the **'Refund Status'** section\n4. You can see:\n   - Original amount paid\n   - Refund amount\n   - Processing status\n   - Expected refund date\n\n**Refund Timeline**:\n- Processing: 1-2 business days\n- Bank Transfer: 3-5 business days\n- Mobile Banking: 1-2 business days\n\nIf your refund is delayed beyond this timeline, contact support."
+    },
+    "change_passenger_info": {
+      "question": "Can I change passenger information after booking?",
+      "answer": "Changing passenger information depends on your journey date:\n\n**Before 24 hours of departure**:\nYes, you can change:\n- Passenger name (small corrections only)\n- Phone number\n- Email address\n\n**Within 24 hours of departure**:\nNot allowed. Contact our support team for assistance.\n\n**Steps**:\n1. Go to **Profile** → **My Bookings**\n2. Click on the booking\n3. Click **'Edit Passenger Info'**\n4. Make your changes\n5. Confirm\n\n**Note**: You cannot change seats through this option. For seat changes, you need to cancel and rebook."
+    }
+  },
+  "busInformation": {
+    "about_busgo": {
+      "question": "What is BusGo?",
+      "answer": "**BusGo** is an online bus booking platform that connects you with:\n\n✓ **100+ Bus Operators** across the country\n✓ **24/7 Customer Support** for all your needs\n✓ **Secure Booking System** with encrypted payments\n✓ **Instant Tickets** generated immediately after booking\n✓ **Live Seat Availability** updated in real-time\n✓ **Easy Cancellations & Rescheduling** with flexible policies\n\nWe make bus travel:\n- **Convenient**: Book from anywhere, anytime\n- **Affordable**: Compare prices across operators\n- **Safe**: Verified bus operators and secure payments\n- **Transparent**: No hidden charges"
+    },
+    "bus_types": {
+      "question": "What types of buses are available?",
+      "answer": "We offer different bus types to suit your comfort and budget:\n\n**AC Buses**:\n- Comfortable air-conditioned seating\n- WiFi on most routes\n- Charging ports for devices\n- Best for regular travelers\n- Price: Moderate\n\n**AC Sleeper Buses**:\n- Flat sleeping berths\n- More spacious and comfortable\n- Includes blankets and pillows\n- Meals/snacks often included\n- Best for long journeys\n- Price: Premium\n\n**Non-AC Buses**:\n- Budget-friendly option\n- Open windows for ventilation\n- Basic seating\n- Best for short distances\n- Price: Economy\n\n**Double Decker Buses**:\n- Premium comfort with better views\n- Upper and lower decks\n- WiFi and charging available\n- Price: Premium\n\nYou can filter buses by type when searching!"
+    },
+    "bus_amenities": {
+      "question": "What amenities are available on buses?",
+      "answer": "Our buses offer various amenities:\n\n**Common Amenities**:\n- **Air Conditioning (AC)**: Climate control\n- **WiFi**: Stay connected on your journey\n- **USB Charging Port**: Charge your devices\n- **Reading Light**: Personal reading lamps\n- **Comfortable Seats**: Reclining or flat beds\n\n**Premium Amenities** (On select buses):\n- **Blanket & Pillow**: For long journeys\n- **Meals/Snacks**: Complimentary food service\n- **Entertainment**: On-board entertainment system\n- **Toilet Facility**: Onboard restroom\n- **Attendant Service**: Professional bus attendant\n\nWhen searching, you can see all amenities listed for each bus. Check the bus details page for complete amenities information."
+    },
+    "safety_measures": {
+      "question": "What safety measures does BusGo ensure?",
+      "answer": "Your safety is our priority. Here's what we ensure:\n\n**Bus Verification**:\n✓ All buses are registered and verified\n✓ Regular maintenance checks\n✓ Vehicle inspection certificates\n✓ Insurance coverage for all buses\n\n**Driver Safety**:\n✓ Trained and experienced drivers\n✓ Background verification\n✓ License verification\n✓ Drug testing\n\n**Travel Safety**:\n✓ GPS tracking on all buses\n✓ Speed monitoring systems\n✓ Night driving policies\n✓ Emergency contact information\n\n**Health & Hygiene** (Post-COVID):\n✓ Regular sanitization of buses\n✓ Hand sanitizers available\n✓ Masks recommended for travelers\n✓ Social distancing when possible\n\nIf you have safety concerns about any operator, please contact our support team immediately."
+    }
+  },
+  "faqs": {
+    "how_far_advance_book": {
+      "question": "How far in advance should I book?",
+      "answer": "**Recommended**: Book 7-14 days in advance\n\n**Benefits of advance booking**:\n- Better seat availability\n- Potentially lower fares (early bird discounts)\n- More time to arrange travel\n- Less stress\n\n**Maximum advance booking**: Up to 90 days from today\n\n**Last-minute booking**: \n- Possible, but limited seats\n- May have higher prices\n- Book as soon as your date is confirmed\n\n**Peak season**: Book 2-3 weeks in advance for:\n- Holidays\n- Weekends\n- Festival seasons"
+    },
+    "do_you_offer_discounts": {
+      "question": "Do you offer discounts?",
+      "answer": "Yes! We offer various discounts:\n\n**Regular Discounts**:\n- **Early Bird**: Book 7+ days in advance for 10-15% off\n- **Group Booking**: 5+ people get 10% discount\n- **Round Trip**: Book return journey and save 5%\n- **Student Discount**: Valid student ID for 10% off\n- **Senior Citizen**: 15% discount for 60+ years\n\n**Seasonal Offers**:\n- **Off-season discounts**: During lean travel periods\n- **Flash sales**: Limited time offers\n- **Festival offers**: Special rates during festivals\n\n**Loyalty Program**:\n- Earn points on every booking\n- Redeem points for discounts\n- Special member-only offers\n\n**How to apply**:\n- Enter coupon code at checkout\n- Discounts are automatically applied\n- You'll see the reduced price before payment"
+    },
+    "what_if_bus_delayed": {
+      "question": "What if my bus is delayed?",
+      "answer": "If your bus is delayed:\n\n**During Journey**:\n- Live tracking shows current location\n- Check the \"Track Bus\" option in My Bookings\n- SMS updates sent to your phone\n- You can contact the driver/conductor\n\n**Delayed by 30+ minutes**:\n- You'll receive notification\n- Contact our support for assistance\n\n**Compensation Policy**:\n- **30-60 min delay**: 5% refund\n- **60-120 min delay**: 10% refund\n- **120+ min delay**: Full refund or bus change\n\n**How to claim**:\n1. Go to My Bookings\n2. Select the journey\n3. Click 'Report Issue'\n4. Provide proof (screenshots, photos)\n5. We'll process within 3-5 days\n\n**Note**: Delays due to road conditions/traffic are beyond our control, but we still try to help."
+    },
+    "what_if_miss_bus": {
+      "question": "What if I miss my bus?",
+      "answer": "If you miss your bus:\n\n**Before departure**:\n- Contact us immediately\n- Provide your ticket number\n- We'll try to add you to another bus on the same route (if available)\n- Additional charges may apply if you switch to a premium bus\n\n**After departure**:\n- Your seat is considered used\n- No refund is provided\n- You must book a new ticket\n\n**To avoid missing your bus**:\n✓ Set alarms and reminders\n✓ Arrive 30 minutes before departure\n✓ Check our SMS reminders\n✓ Download the app for push notifications"
+    },
+    "lost_items_policy": {
+      "question": "What is the lost items policy?",
+      "answer": "If you lose something on the bus:\n\n**Report Lost Item**:\n1. Contact customer support immediately\n2. Provide:\n   - Your ticket number\n   - Bus registration number\n   - Description of item\n   - Date and time\n3. We'll contact the bus operator\n\n**Timeline**:\n- Bus operators check lost & found within 24-48 hours\n- Items held for 30 days\n- If found, we'll contact you for pickup/delivery\n\n**Valuable Items**:\n- Declare valuable items when booking\n- Take pictures/video before boarding\n- Keep with you during the journey\n- BusGo not responsible for items left unattended\n\n**Compensation**:\n- Limited to damage value\n- Must file claim within 7 days\n- Requires proof of loss (receipts, photos)\n\n**Prevention**:\n- Keep belongings with you\n- Don't leave items unattended\n- Use overhead racks safely"
+    },
+    "contact_support": {
+      "question": "How do I contact customer support?",
+      "answer": "**Multiple ways to reach us**:\n\n**Phone Support** (24/7):\n- Toll-free: 1-800-BUSGO-1\n- Local: +880-1850487332\n- WhatsApp: +880-1700-000000\n\n**Email Support**:\n- General: support@busgo.com\n- Complaints: complaints@busgo.com\n- Billing: billing@busgo.com\nResponse time: Within 4-6 hours\n\n**Live Chat**:\n- Available on website & app\n- Hours: 8 AM - 10 PM (Daily)\n\n**Social Media**:\n- Facebook: @BusGoOfficial\n- Twitter: @BusGoOfficial\n- Instagram: @BusGoOfficial\n\n**In-App Support**:\n- Open app and click 'Help'\n- Submit ticket\n- Track support status\n\n**Response Times**:\n- Urgent issues: 1-2 hours\n- Regular issues: 4-6 hours\n- Billing issues: Within 24 hours"
+    }
+  },
+  "searchTips": {
+    "how_to_search_buses": {
+      "question": "How do I search for buses?",
+      "answer": "Follow these simple steps:\n\n**On Homepage**:\n1. Click the **'Search Bus'** button prominently displayed\n2. Enter **Departure city** (From)\n3. Enter **Destination city** (To)\n4. Select **Journey date**\n5. (Optional) Select **Return date** for round trip\n6. Click **'Search'** button\n\n**View Results**:\n- All available buses are listed\n- Sorted by:\n  - Departure time (default)\n  - Price (lowest first)\n  - Duration\n  - Ratings\n\n**Filter Options**:\n- **Bus Type**: AC, AC Sleeper, Non-AC\n- **Price Range**: Set min-max price\n- **Departure Time**: Morning, Afternoon, Evening, Night\n- **Amenities**: WiFi, Charging, AC, Sleeper\n- **Ratings**: 4+ stars, 3.5+ stars, etc.\n\n**Select a Bus**:\n1. Click on any bus card\n2. View detailed information\n3. See all amenities and ratings\n4. Proceed to seat selection"
+    },
+    "filter_buses": {
+      "question": "How do I filter buses by my preferences?",
+      "answer": "Use filters to find the perfect bus:\n\n**1. Price Filter**:\n- Set minimum price\n- Set maximum price\n- See only buses within your budget\n\n**2. Bus Type**:\n- AC (Air Conditioned)\n- AC Sleeper (Bed-type)\n- Non-AC (Budget)\n- Double Decker\n\n**3. Departure Time**:\n- Early Morning (4 AM - 8 AM)\n- Morning (8 AM - 12 PM)\n- Afternoon (12 PM - 4 PM)\n- Evening (4 PM - 8 PM)\n- Night (8 PM - 12 AM)\n- Late Night (12 AM - 4 AM)\n\n**4. Amenities**:\n- WiFi Available\n- USB Charging\n- Toilet Facility\n- Meals Included\n- Entertainment System\n\n**5. Ratings**:\n- 5 Stars\n- 4+ Stars\n- 3.5+ Stars\n- All Ratings\n\n**6. Duration**:\n- Shortest journey first\n- Set maximum duration\n\n**How to apply**:\n- Check the boxes you want\n- Results update automatically\n- Click 'Clear Filters' to reset"
+    },
+    "compare_buses": {
+      "question": "Can I compare buses?",
+      "answer": "Yes! You can compare buses to make the best choice:\n\n**Comparison Features**:\n- **Price Comparison**: See which bus is cheapest\n- **Duration Comparison**: Which is fastest\n- **Amenities Comparison**: See all features side-by-side\n- **Ratings Comparison**: Customer reviews and ratings\n- **Departure Times**: Which time suits you best\n\n**How to Compare**:\n1. From search results, select up to 3 buses\n2. Click 'Compare' button\n3. View detailed comparison table\n4. See all features side-by-side\n5. Choose the best one\n\n**Comparison Includes**:\n- Bus name & operator\n- Price per seat\n- Departure & arrival time\n- Travel duration\n- All amenities\n- Seat availability\n- Passenger ratings\n- Reviews and comments\n\nThis helps you make an informed decision!"
+    },
+    "view_bus_reviews": {
+      "question": "Can I view reviews for buses?",
+      "answer": "Yes! Reviews help you choose better.\n\n**Where to Find Reviews**:\n1. From search results, click on any bus\n2. Scroll to **'Reviews'** section\n3. See all passenger feedback\n\n**Review Information**:\n- **Star Rating**: 1-5 stars\n- **Written Review**: What passengers said\n- **Passenger Name**: Anonymous or named\n- **Journey Details**: Date & route they traveled\n- **Helpful Votes**: Number of people found it helpful\n\n**Common Review Topics**:\n- Cleanliness\n- Driving safety\n- Comfort level\n- Staff behavior\n- Punctuality\n- Value for money\n- WiFi/Charging quality\n\n**Submit Your Own Review**:\n1. After your journey, go to My Bookings\n2. Click 'Write Review' on completed booking\n3. Rate 1-5 stars\n4. Write your experience (optional)\n5. Submit\n\nYour review helps other travelers make better choices!"
+    }
+  }
+}
