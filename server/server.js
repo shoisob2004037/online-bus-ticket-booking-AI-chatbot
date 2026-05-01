@@ -20,8 +20,8 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:3000',
-    'https://pharmacy-management-system-78if.vercel.app',
-    process.env.CLIENT_URL || 'http://localhost:3000'
+    'https://online-bus-ticket-booking-ai-chatbo-wheat.vercel.app',
+    process.env.CLIENT_URL
   ],
   credentials: true
 }));
