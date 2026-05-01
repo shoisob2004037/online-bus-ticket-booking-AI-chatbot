@@ -20,10 +20,12 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:3000',
-    'https://pharmacy-management-system-78if.vercel.app'
+    'https://pharmacy-management-system-78if.vercel.app',
+    process.env.CLIENT_URL || 'http://localhost:3000'
   ],
   credentials: true
-}));app.use(express.json());
+}));
+app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Connect to MongoDB
@@ -46,20 +48,30 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'OK', message: 'Bus Booking API is running' });
 });
 
+// Root endpoint (fixes 'can't GET /')
+app.get('/', (req, res) => {
+  res.json({ message: 'Bus Booking API - Use /api endpoints' });
+});
+
 // Global error handler
 app.use((err, req, res, next) => {
   console.error(err.stack);
   res.status(500).json({ message: 'Something went wrong!' });
 });
 
-const PORT = process.env.PORT || 5000;
+// For local development
+if (process.env.NODE_ENV !== 'production') {
+  const PORT = process.env.PORT || 5000;
+  app.listen(PORT, () => {
+    console.log(`🚀 Server running on port ${PORT}`);
+    console.log('─── Environment check ───────────────────');
+    console.log('JWT_SECRET       →', process.env.JWT_SECRET        ? '✅' : '❌ MISSING');
+    console.log('ADMIN_SECRET_KEY →', process.env.ADMIN_SECRET_KEY  ? '✅' : '❌ MISSING');
+    console.log('MONGODB_URI      →', process.env.MONGODB_URI       ? '✅' : '⚠️  using localhost default');
+    console.log('GROQ_API_KEY     →', process.env.GROQ_API_KEY      ? '✅' : '⚠️  chat will not work');
+    console.log('─────────────────────────────────────────');
+  });
+}
 
-app.listen(PORT, () => {
-  console.log(`🚀 Server running on port ${PORT}`);
-  console.log('─── Environment check ───────────────────');
-  console.log('JWT_SECRET       →', process.env.JWT_SECRET        ? '✅' : '❌ MISSING');
-  console.log('ADMIN_SECRET_KEY →', process.env.ADMIN_SECRET_KEY  ? '✅' : '❌ MISSING');
-  console.log('MONGODB_URI      →', process.env.MONGODB_URI       ? '✅' : '⚠️  using localhost default');
-  console.log('GROQ_API_KEY     →', process.env.GROQ_API_KEY      ? '✅' : '⚠️  chat will not work');
-  console.log('─────────────────────────────────────────');
-});
+// Export for Vercel serverless
+module.exports = app;
