@@ -21,7 +21,7 @@ import Profile from './pages/Profile';
 import TakaDhukan from './pages/TakaDhukan';
 import AdminRegister from './pages/AdminRegister';
 import AdminTopupRequests from './pages/AdminTopupRequests';
-import AdminDashboard from './pages/AdminDashboard';   // New Admin Homepage
+import AdminDashboard from './pages/AdminDashboard';   
 
 function App() {
   return (
