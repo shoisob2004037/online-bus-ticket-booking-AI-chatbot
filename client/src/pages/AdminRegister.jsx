@@ -26,7 +26,7 @@ const AdminRegister = () => {
     setError('');
 
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/register-admin', form);
+      const response = await axios.post(`${import.meta.env.VITE_API_URL}/api/auth/register-admin`, form);
 
       setMessage('✅ Admin account created successfully!');
 
