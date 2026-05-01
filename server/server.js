@@ -17,8 +17,13 @@ const adminRoutes = require('./routes/admin');
 const app = express();
 
 // Middleware
-app.use(cors());
-app.use(express.json());
+app.use(cors({
+  origin: [
+    'http://localhost:3000',
+    'https://pharmacy-management-system-78if.vercel.app'
+  ],
+  credentials: true
+}));app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Connect to MongoDB
